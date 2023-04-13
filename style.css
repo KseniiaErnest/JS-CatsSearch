@@ -1,0 +1,103 @@
+/*BACKGROUND-COLOR: #c6d1c9
+MAIN-COLOR: #060a07
+ACCESENT-COLORs: #0d140f, #273c2c, #ecf0ed
+
+
+
+
+
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-family: 'Abril Fatface', cursive;
+  background-color: #c6d1c9;
+  color: #060a07;
+}
+
+img,
+video,
+iframe {
+  max-inline-size: 100%;
+  block-size: auto;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.heading-container h1 {
+  font-size: 3rem;
+  color: #0d140f ;
+  margin-bottom: 1.6rem;
+}
+
+#searchname {
+  font-size: 2rem;
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  border-radius: 9px;
+  border: none;
+  background-color: #273c2c ;
+  color: #ecf0ed;
+  font-family: 'Abril Fatface', cursive;
+
+}
+
+.heading-text {
+  padding-right: 3rem;
+  line-height: 1.8;
+  font-size: 1.2rem;
+  font-family: serif;
+  font-weight: bold;
+  margin-top: 2rem;
+  
+}
+
+.main-grid-container {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  padding: 1.6rem;
+}
+
+.images-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1.2rem;
+  
+}
+
+.image-box {
+  text-align: center;
+}
+
+.image-box img {
+display: block;
+width: 100%;
+height: 24rem;
+object-fit: cover;
+border-radius: 11px;
+box-shadow: 5px 5px 11px 5px rgb(0, 0, 0, 0.1);
+margin-bottom: 0.5rem;
+}
+
+a:link, a:active {
+  color: #060a07;
+  text-decoration: none;
+  font-size: 1.2rem;
+  
+}
+
+a:hover, a:visited {
+  color:#060a07;
+}
