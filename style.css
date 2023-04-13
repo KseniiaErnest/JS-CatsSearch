@@ -2,10 +2,6 @@
 MAIN-COLOR: #060a07
 ACCESENT-COLORs: #0d140f, #273c2c, #ecf0ed
 
-
-
-
-
 */
 
 * {
@@ -34,7 +30,7 @@ iframe {
 .input-container {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
 }
 
 .heading-container h1 {
@@ -101,3 +97,72 @@ a:link, a:active {
 a:hover, a:visited {
   color:#060a07;
 }
+
+
+@media (max-width: 93em) {
+  .images-container {
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+
+  #searchname {
+    font-size: 1.6rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+
+
+}
+
+@media (max-width: 81em) {
+
+  .heading-container h1 {
+    font-size: 2rem;
+  }
+
+  #searchname {
+    font-size: 1.2rem;
+    padding: 0.5rem 1rem 0.5rem 1rem;
+  }
+
+  .heading-text {
+    padding-right: 3rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    
+  }
+}
+
+@media (max-width: 62em) {
+.main-grid-container {
+  grid-template-columns: 1fr;
+}
+
+.input-container {
+  align-items: center;
+  margin-bottom: 1.6rem;
+}
+
+}
+
+@media (max-width: 44em) {
+  .images-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .heading-text {
+    padding: 0;
+    font-size: 1rem;
+    
+  }
+}
+
+@media (max-width: 31em) {
+  .images-container {
+    grid-template-columns: 1fr;
+  }
+
+  .heading-text {
+    font-size: 0.9rem;
+  }
+}
+
