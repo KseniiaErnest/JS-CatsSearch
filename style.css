@@ -87,6 +87,12 @@ box-shadow: 5px 5px 11px 5px rgb(0, 0, 0, 0.1);
 margin-bottom: 0.5rem;
 }
 
+.selected {
+  width: 100vh;
+  height: 100vh;
+}
+
+
 a:link, a:active {
   color: #060a07;
   text-decoration: none;
